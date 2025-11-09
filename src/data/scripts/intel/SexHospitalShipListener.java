@@ -10,17 +10,17 @@ import java.util.logging.Logger;
 
 public class SexHospitalShipListener implements FleetMemberDeploymentListener {
 
-    @Override
-    public void reportFleetMemberDeployed(DeployedFleetMemberAPI deployedFleetMemberAPI) {
-        Logger l = Logger.getLogger(this.getClass().getName());
-
-       float totalFleetHospitalShipBonus = 1f;
-        for(FleetMemberAPI s:Global.getSector().getPlayerFleet().getFleetData().getMembersListCopy()){
-            totalFleetHospitalShipBonus = totalFleetHospitalShipBonus *s.getStats().getDynamic().getStat("sex_global_crew_loss").getModifiedValue();
-        }
-        deployedFleetMemberAPI.getMember().getStats().getCrewLossMult().modifyMult(this.getClass().getName(),totalFleetHospitalShipBonus);
-        //l.info("crew loss mult ="+totalFleetHospitalShipBonus);
-
-
-    }
+	@Override
+	public void reportFleetMemberDeployed(DeployedFleetMemberAPI deployedFleetMemberAPI) {
+		if (Global.getSector() == null || Global.getSector().getPlayerFleet() == null) {
+		// Not in campaign context (e.g., mission or simulator)
+		return;
+	}
+	float totalFleetHospitalShipBonus = 1f;
+	for (FleetMemberAPI s : Global.getSector().getPlayerFleet().getFleetData().getMembersListCopy()) {
+		totalFleetHospitalShipBonus *= s.getStats().getDynamic().getStat("sex_global_crew_loss").getModifiedValue();
+	}
+	deployedFleetMemberAPI.getMember().getStats().getCrewLossMult()
+		.modifyMult(this.getClass().getName(), totalFleetHospitalShipBonus);
+	}
 }
