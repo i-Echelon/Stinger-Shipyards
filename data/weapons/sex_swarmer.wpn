@@ -1,0 +1,50 @@
+{
+  "id": "sex_swarmer",
+  "specClass": "projectile",
+  "fireSoundTwo":"swarmer_fire",
+  "projectileSpecId":"type_1_srm",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/sex_swarmer/sex_swarmer_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sex_swarmer/sex_swarmer_hardpoint_base.png",
+  "turretOffsets": [
+    20,
+    8.5,
+    20,
+    4.5,
+    20,
+    0.5,
+    20,
+    -4.5,
+    20,
+    -8.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    31,
+    8.5,
+    31,
+    4.5,
+    31,
+    0.5,
+    31,
+    -4.5,
+    31,
+    -8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE"
+}
