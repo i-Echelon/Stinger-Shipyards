@@ -1,0 +1,231 @@
+{
+  "hullName": "Enforcer (STG)",
+  "hullId": "sex_enforcer_merc",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sexco/stingtail/sex_enforcer_merc.png",
+  "style": "LOW_TECH",
+  "height": 163,
+  "width": 140,
+  "center": [70, 81.5],
+  "collisionRadius": 95,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sex_sexco",
+    "ablative_armor",
+    "distributed_fire_control"
+  ],
+  "builtInWeapons": {
+    "WS0002": "pusherplate_lt_tiny",
+    "WS0009": "blinker_green",
+    "WS0014": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-55.5, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-53.5, 1]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -14.5,
+      "locations": [-15, -44]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 23.5,
+      "locations": [-15, 44]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [19, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [36, -50]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [36, 50]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [46, -31]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [46, 31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [67, -7.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [67, 7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -23,
+      "locations": [12, -29]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 23,
+      "locations": [12, 29]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67.5, -37],
+      "length": 52,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67.5, 37],
+      "length": 52,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67.5, -29.5],
+      "length": 52,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67.5, 29.5],
+      "length": 52,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66.5, -20],
+      "length": 37.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-66.5, 20],
+      "length": 37.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -63.5, 17,
+    -66.5, 39.5,
+    -57, 47.5,
+    -42, 47.5,
+    -27.5, 57,
+    -22.5, 65.5,
+    -5.5, 65,
+    1, 58,
+    37, 57,
+    38.5, 45.5,
+    22, 40.5,
+    47, 38,
+    48.5, 25.5,
+    33.5, 22,
+    36, 16.5,
+    45, 16.5,
+    48.5, 21,
+    64, 20,
+    64, -20,
+    48.5, -21,
+    45, -16.5,
+    36, -16.5,
+    33.5, -22,
+    48.5, -25.5,
+    47, -38,
+    22, -40.5,
+    38.5, -45.5,
+    37, -57,
+    1, -58,
+    -5.5, -65,
+    -22.5, -65.5,
+    -27.5, -57,
+    -42, -47.5,
+    -57, -47.5,
+    -66.5, -39.5,
+    -63.5, -17
+  ]
+}

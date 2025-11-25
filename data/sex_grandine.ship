@@ -1,0 +1,108 @@
+{
+  "hullName": "Grandine",
+  "hullId": "sex_grandine",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/phase/sex_grandine.png",
+  "style": "HIGH_TECH",
+  "height": 127,
+  "width": 116,
+  "center": [58, 63.5],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 66.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "shielded_holds",
+    "delicate"
+  ],
+  "builtInWeapons": {
+    "WS0001": "blinker_green",
+    "WS0002": "blinker_red",
+    "WS0003": "blinker_green",
+    "WS0004": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-41, -42.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-41, 42.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, -11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [46, 11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47.5, -22],
+      "length": 52,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-47.5, 22],
+      "length": 52,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49.5, -7],
+      "length": 31,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-49.5, 7],
+      "length": 31,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -48, 14,
+    -43.5, 34,
+    -41, 43,
+    -7.5, 45,
+    52.5, -0,
+    -7.5, -45,
+    -41, -43,
+    -43.5, -34,
+    -48, -14
+  ]
+}

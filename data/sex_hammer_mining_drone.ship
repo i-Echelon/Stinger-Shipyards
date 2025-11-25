@@ -1,0 +1,57 @@
+{
+  "hullName": "Improvised Bomber",
+  "hullId": "sex_hammer_mining_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sex_hammer_mining_drone.png",
+  "style": "LOW_TECH",
+  "height": 52,
+  "width": 30,
+  "center": [15, 28],
+  "collisionRadius": 31,
+  "shieldCenter": [-16, -1],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, -0.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-3.5, 11.5],
+      "length": 5.190678,
+      "width": 3.037674,
+      "angle": 140,
+      "contrailSize": 3.037674,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-3.5, -11.5],
+      "length": 5.190678,
+      "width": 3.037674,
+      "angle": -140,
+      "contrailSize": 3.037674,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -19, 8,
+    19, 8,
+    19, -8,
+    -19, -8
+  ]
+}
