@@ -1,0 +1,12 @@
+{
+"askonia":{
+"weapons":['hveldriver','breach','heavymauler','gravitonbeam','pdlaser','heavymg','heatseeker','pulselaser','lrpdlaser','heavyneedler','sabot','squall','hurricane','flak','vulcan','squall','sabotpod','typhoon','devastator'],
+"fighters":['hoplon_wing','broadsword_wing'],
+"hulls":['sex_brawler_xiv','sex_martinet_xiv','eagle_xiv','dominator_xiv','enforcer_xiv','onslaught_xiv','falcon_xiv'],
+},
+"default":{
+"weapons":['hveldriver','breach','heavymauler','gravitonbeam','pdlaser','heavymg','heatseeker','pulselaser','lrpdlaser','heavyneedler','sabot','squall','hurricane','flak','vulcan','squall','sabotpod','typhoon','devastator'],
+"fighters":['hoplon_wing','broadsword_wing'],
+"hulls":['sex_brawler_xiv','sex_martinet_xiv','eagle_xiv','dominator_xiv','enforcer_xiv','onslaught_xiv','falcon_xiv'],
+}
+}

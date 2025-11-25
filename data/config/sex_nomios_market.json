@@ -1,0 +1,12 @@
+{
+"nomios":{
+"weapons":['hammer','hammer_single','heavyac','railgun','harpoonpod','harpoon','lightag','lightdualmg','lightdualac','lightmortar'],
+"fighters":['mining_drone_wing'],
+"hulls":['nebula','buffalo','ox','mudskipper','starliner','crig','hermes','dram','phaeton'],
+},
+"default":{
+"weapons":['hammer','hammer_single','heavyac','railgun','harpoonpod','harpoon','lightag','lightdualmg','lightdualac','lightmortar'],
+"fighters":['mining_drone_wing'],
+"hulls":['nebula','buffalo','ox','mudskipper','starliner','crig','hermes','dram','phaeton'],
+}
+}

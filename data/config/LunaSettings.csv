@@ -1,0 +1,3 @@
+fieldID,,fieldName,fieldType,defaultValue,secondaryValue,,,fieldDescription,,,minValue,maxValue,tab
+stingershipyards_enablebanner,,Enable Banner,Boolean,false,,,,Enable the main menu banner,,,,,Banner
+stingershipyards_stretchtofill,,Stretch To Fill Banner,Boolean,true,,,,Stretch the banner on non 16:9 aspect ratio displays,,,,,Banner

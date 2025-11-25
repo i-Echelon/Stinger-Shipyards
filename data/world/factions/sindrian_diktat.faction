@@ -1,0 +1,14 @@
+{
+	"hullFrequency":{
+        "hulls":{
+			"kite_original":0, ##trophy ship
+        },
+    },
+	"knownWeapons":{
+		"weapons":[
+		"sex_quadgiga",
+		"sex_spicagiga",
+		"sex_mephisto",
+		],
+	},	
+},

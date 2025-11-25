@@ -1,0 +1,32 @@
+{	
+	"hullFrequency":{
+		"hulls":{			
+			"sex_brynhildr":0.9,
+			"sex_tartarus":1,
+			"sex_adramelech":0.8,
+			"sex_whiskeypete":1,
+			"sex_perigee":1,
+			"sex_mora_original":0.8,
+			"sex_furtive":1,
+			"kite_original":0, ##trophy ship
+		},
+	},
+		"knownShips":{
+		"hulls":[		
+			"sex_brynhildr",
+			"sex_tartarus",
+			"sex_adramelech",
+			"sex_whiskeypete",
+			"sex_perigee",
+			"sex_mora_original",
+			"sex_furtive",
+			],
+    },		
+	"knownWeapons":{
+		"weapons":[
+		"sex_quadgiga",
+		"sex_spicagiga",
+		"sex_mephisto",
+		],
+	},		
+},

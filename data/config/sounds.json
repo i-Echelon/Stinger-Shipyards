@@ -1,0 +1,17 @@
+{
+"music":{
+		"sex_co_neutral":[
+			{"file":"NightOnTheDocksPiano.ogg","source":"sounds/music","volume":1,"randomStart":true},
+		],
+		"sex_co_friendly":[
+			{"file":"NightonTheDocksSax.ogg","source":"sounds/music","volume":1,"randomStart":true},
+		],
+		"sex_co_hostile":[
+			{"file":"NightOntheDocksTrumpet.ogg","source":"sounds/music","volume":1,"randomStart":true},
+		],
+	},
+	"sex_quadgiga_fire":[{"file":"sounds/sfx_wpn_missiles/sex_quadgiga_fire.ogg","pitch":1,"volume":0.5}], 
+	"sex_emp_spool":[{"file":"sounds/sfx_systems/nova_burst_charge_3.ogg","pitch":1,"volume":0.5}],
+	"sex_emp_fire":[{"file":"sounds/sfx_systems/nova_burst_detonate_3.ogg","pitch":1,"volume":0.5}], 
+	
+}

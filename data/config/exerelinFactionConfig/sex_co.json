@@ -1,0 +1,122 @@
+{
+    "uniqueModClassName":"data.scripts.sex_modPlugin",
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"ngcTooltip":"The family, the comare, we're above the law.",
+    "invasionOnlyRetake":true,
+    "raidsFromBases":true,
+    "crewExpereinceLevelIncreaseChance":0.0,
+    "baseFleetCostMultiplier":1.0,
+    "customRebelFaction":"",
+    "customRebelFleetId":"",
+    "rebelFleetSuffix":"Rats",
+	"asteroidMiningFleetName":"Mining convoy",
+    "gasMiningFleetName":"Gas-mining convoy",
+	"suppressionFleetName":"Outfit",
+	"invasionFleetName":"Black Hand",
+	"invasionSupportFleetName":"Narks",
+    "responseFleetName":"Responders",
+    "defenceFleetName":"Emergency Auxiliaries",
+    "positiveDiplomacyExtra":0,
+    "negativeDiplomacyExtra":0,
+    "factionsLiked":[
+		"hegemony",
+		"independent"],
+    "factionsDisliked":[
+		"tritachyon",
+		"luddic_church"],
+	
+	
+	"startRelationships":{
+    		"hegemony": 0.75, #hegemony
+    		"ironshell": 0.75, #hegemommy
+    		"luddic_path": -0.9, #fuck pathers
+    		"luddic_church": 0.25, #we cool with the luddics
+    		"knights_of_ludd": 0.15, #see above
+    		"persean_league": -0.15, #we love hegemommy's tits so we hate the league
+			"sindrian_diktat":-1, #euterpe hates kween
+			"mayasura":-0.1, #call the hoes, get in the rolls
+			"tahlan_legioinfernalis":-1, #tahlan is a transphobe
+    		"tritachyon": -1, #competition
+			"hmi": 0.1, #competition but we cool
+			"rb": 0.25, #fellow salvagers
+			"uaf": -1, #this is 100% metagaming btw
+			"pirates": -1, #pirates
+			"brighton": 0.25}, #baller vibes
+    "maxRelationships":{
+    		"luddic_church": 0.6, #we are a company after all
+    		"luddic_path": -0.5, #praised be his name
+    		"uaf": -1, #I want to a blowjob from aeria charlotte while solvernia plays with my balls
+    		"tritachyon": -0.2}, #no remnant sex allowed
+    "diplomacyPositiveChance":{
+    		"hegemony": 1.2, #benefactors
+    		"luddic_path": 0, #pathers
+    		"pirates": 0.1, #story affects their relationship so
+    		"tritachyon": 0}, #the godmother would never make peace with tri-tach
+    "diplomacyNegativeChance":{
+	    	"luddic_path": 1.2, #I WILL GIVE YOU A TASTE OF MY SHOE
+	    	"pirates": 0.1,
+    		"tritachyon": 1.2}, #I want to empty my balls inside a remanant drone
+	
+    "morality":"amoral", #20 bucks is 20 bucks
+	
+    "alignments":{
+            "technocratic":-1,
+            "militarist":0.5,
+            "hierarchical":1,
+    },
+	
+	"vengeanceLevelNames":["Shakedown", "Lupara Bianca"],
+	"vengeanceFleetNames":["Enforcers", "Hit-Fleet"],
+    "vengeanceFleetNamesSingle":["an Enforcer fleet", "a Hit-Fleet"],
+    
+    "specialForcesMaxFleets":1,
+	
+	"diplomacyTraits":["monopolist", "lowprofile", "devious", "irredentist"],
+	
+	 "groundBattleSettings":{
+        "moraleDamageTakenMult":0.6,
+    },
+	
+	"factionIdForHqResponse":"sex_mercs",
+		
+	"miningVariantsOrWings":["sex_shepherd_sex_Mining", "sex_tartarus_sex_Mining", "sex_whiskeypete_sex_Mining", "sex_mule_sex_Mining", "sex_hound_sex_Mining"],
+	
+	
+    "startShipsSolo":[["sex_hound_sex_Mining"]],
+    "startShipsCombatSmall":[["sex_enforcer_sex_Strike", "sex_enforcer_sex_Strike", "sex_enforcer_sex_Strike"]],
+    "startShipsTradeSmall":
+	[
+	["sex_colossus_sex_Mining", "sex_shepherd_sex_Mining", "sex_shepherd_sex_Mining"],
+	["sex_mule_sex_Mining", "sex_hound_sex_Mining", "sex_hound_sex_Mining"],
+	],
+    "startShipsCombatLarge":
+	[
+	["sex_myriad_sex_Standard", "sex_enforcer_sex_Strike", "sex_enforcer_sex_Strike", "sex_enforcer_sex_Strike", "sex_tartarus_sex_Mining", "sex_tartarus_sex_Mining", "sex_tartarus_sex_Mining"],
+	],
+    "startShipsTradeLarge":[["sex_colossus_sex_Mining", "sex_colossus_sex_Mining", "sex_colossus_sex_Mining"]],
+    "startShipsSuper":[["sex_myriad_sex_Standard"]],
+		
+    "startSpecialItems":[
+        [["sex_package", ""]],
+    ],
+	
+	"colonyExpeditionChance":0.8,	# very little interest in expansion
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+	    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"heavyindustry", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"population_upsize", "count":1},
+    ],
+	
+}

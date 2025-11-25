@@ -1,0 +1,19 @@
+{
+	"hullFrequency":{
+        "hulls":{
+			"kite_original":0, ##trophy ship
+        },
+    },
+	"knownShips":{
+		"hulls":[
+			"sex_champion_LG",
+			"sex_gryphon_LG",
+		],	
+    },
+	"knownWeapons":{
+		"weapons":[
+		"gazer",
+		"dragonpod",
+		],
+	},	
+},
