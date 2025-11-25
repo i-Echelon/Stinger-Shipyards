@@ -1,0 +1,18 @@
+{
+	"id":"sex_ciws_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.sex_CIWS_OnHit",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":60,
+	"hitGlowRadius":10,
+	"width":10,
+	"fadeTime":0.2,
+	"fringeColor":[255,40,40,255],
+	"coreColor":[255,230,190,150],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small.png",
+					}	
+}

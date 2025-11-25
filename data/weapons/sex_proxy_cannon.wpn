@@ -1,0 +1,37 @@
+{
+	"id": "sex_proxy_cannon",
+	"specClass": "projectile",
+	"projectileSpecId": "phase_charge",
+	"type": "MISSILE",
+	"size": "MEDIUM",
+	"turretSprite": "graphics/weapons/sex_proxy_cannon/sex_proxy_cannon_turret_base.png",
+	"turretGunSprite": "graphics/weapons/sex_proxy_cannon/sex_proxy_cannon_base_barrel.png",
+	"hardpointSprite": "graphics/weapons/sex_proxy_cannon/sex_proxy_cannon_hardpoint_base.png",
+	"hardpointGunSprite": "graphics/weapons/sex_proxy_cannon/sex_proxy_cannon_base_barrel.png",
+	"visualRecoil": 1,
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets": [15.5,0],
+	"turretAngleOffsets": [0],
+	"hardpointOffsets": [25,0],
+	"hardpointAngleOffsets": [0],
+	"barrelMode": "ALTERNATING",
+	"animationType": "SMOKE",
+	"smokeSpec": {
+		"particleSizeMin": 12,
+		"particleSizeRange": 16,
+		"cloudParticleCount": 5,
+		"cloudDuration": 1.5,
+		"cloudRadius": 10,
+		"blowbackParticleCount": 3,
+		"blowbackDuration": 1,
+		"blowbackLength": 10,
+		"blowbackSpread": 8,
+		"particleColor": [
+			95,
+			70,
+			155,
+			110
+		]
+	},
+	"fireSoundTwo": "proximity_charge_launcher_fire"
+}

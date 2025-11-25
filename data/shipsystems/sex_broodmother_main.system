@@ -1,0 +1,9 @@
+{
+	"id":"sex_broodmother_main",
+	"type":"WEAPON",
+	"aiType":"CUSTOM", 
+	"aiScript":"data.scripts.ai.sex_DroneDeployerAI",
+	
+	"weaponDataId":"sex_GlimmerBay",
+	"outOfUsesSound":"gun_out_of_ammo",
+}
