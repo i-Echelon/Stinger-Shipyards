@@ -1,0 +1,33 @@
+{
+  "variantId": "sex_tartarus_Desperate",
+  "hullId": "sex_tartarus",
+  "displayName": "Desperate",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "jackhammer",
+        "WS0002": "jackhammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag",
+        "WS0004": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

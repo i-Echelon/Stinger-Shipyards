@@ -1,0 +1,25 @@
+{
+  "variantId": "sex_starliner_original_Stock",
+  "hullId": "sex_starliner_original",
+  "displayName": "Stock",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
+  "quality": 1,
+  "removeEngineSlots":[2, 3, 5, 6], 		# indices, as engine slots have no id in the .ship file
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "lightdualmg",
+        "WS 006": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
