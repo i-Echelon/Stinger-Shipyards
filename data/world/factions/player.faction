@@ -1,0 +1,11 @@
+{
+	"portraits":{
+		"standard_female":[
+"graphics/portraits/SexPlayer_F_01.png", 
+"graphics/portraits/SexPlayer_F_02.png", 
+"graphics/portraits/SexPlayer_F_03.png", 
+"graphics/portraits/SexPlayer_F_04.png", 
+"graphics/portraits/SexPlayer_F_05.png", 
+		],
+	},
+},

@@ -1,0 +1,20 @@
+{	
+	"hullFrequency":{
+		"hulls":{			
+			"sex_stronghold":0.9,
+			"sex_embattlement":0.8,
+		},
+	},
+		"knownShips":{
+		"hulls":[		
+			"sex_stronghold",
+			"sex_embattlement",
+			],
+    },		
+	"knownWeapons":{
+		"weapons":[
+		"sex_quadgiga",
+		"sex_spicagiga",
+		],
+	},		
+},
