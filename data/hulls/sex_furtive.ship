@@ -1,0 +1,184 @@
+{
+  "hullName": "Furtive",
+  "hullId": "sex_furtive",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/furtive/sex_furtive.png",
+  "style": "MIDLINE",
+  "height": 245,
+  "width": 142,
+  "center": [71, 120.5],
+  "collisionRadius": 151,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 133,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "shielded_holds",
+    "sex_slowracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [36.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [79.5, -40]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [79.5, 40]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 39.5,
+      "locations": [-20.5, 42]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -167,
+      "locations": [-95, -30]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 167,
+      "locations": [-95, 30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-120.5, -19],
+      "length": 91,
+      "width": 28,
+      "angle": 180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-120.5, 19],
+      "length": 91,
+      "width": 28,
+      "angle": -180,
+      "contrailSize": 28,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-119.5, -30.5],
+      "length": 57.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-119.5, 30.5],
+      "length": 57.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118.5, -42],
+      "length": 76.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118.5, 42],
+      "length": 76.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118.5, -41.5],
+      "length": 14,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118.5, 41.5],
+      "length": 14,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-120.5, -23.5],
+      "length": 28.5,
+      "width": 36,
+      "angle": 180,
+      "contrailSize": 36,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-120.5, 23.5],
+      "length": 28.5,
+      "width": 36,
+      "angle": -180,
+      "contrailSize": 36,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -84.5, 10,
+    -119, 12.5,
+    -117.5, 44.5,
+    -107.5, 53.5,
+    -83, 48,
+    -70.5, 70,
+    -36.5, 66,
+    -34.5, 70,
+    4, 61,
+    61.5, 57,
+    91.5, 24.5,
+    48.5, 16,
+    74.5, -0,
+    48.5, -16,
+    91.5, -24.5,
+    61.5, -57,
+    4, -61,
+    -34.5, -70,
+    -36.5, -66,
+    -70.5, -70,
+    -83, -48,
+    -107.5, -53.5,
+    -117.5, -44.5,
+    -119, -12.5,
+    -84.5, -10
+  ]
+}

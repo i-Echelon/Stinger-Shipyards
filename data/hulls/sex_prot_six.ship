@@ -1,0 +1,159 @@
+{
+  "hullName": "Aphrodite",
+  "hullId": "sex_prot_six",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/rosalina/sex_prot_six.png",
+  "style": "LOW_TECH",
+  "height": 114,
+  "width": 156,
+  "center": [78, 57],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sex_RosalinaShip"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -58.5,
+      "locations": [28, -23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -79.5,
+      "locations": [3, -39]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [23, -42]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [14, 52]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41, -28],
+      "length": 34,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42, -15],
+      "length": 50.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45, -0],
+      "length": 23.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-38, 31.5],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-38, 38],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, 15.5],
+      "length": 46.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    49, -10.5,
+    49, -19,
+    32.5, -35.5,
+    25, -36,
+    25, -48,
+    -9, -48,
+    -9, -39,
+    -11, -36.5,
+    -23, -41,
+    -32, -40.5,
+    -39, -32.5,
+    -41, -7,
+    -43, -6,
+    -43, 6.5,
+    -39, 7,
+    -39, 11,
+    -41, 11,
+    -41, 19,
+    -35.5, 22,
+    -37, 42,
+    -19, 46,
+    -15, 51,
+    -10.5, 51,
+    -7.5, 56,
+    4.5, 59,
+    18, 56,
+    18, 47,
+    9.5, 46,
+    18.5, 38,
+    18.5, 23,
+    28, 18.5,
+    35, 11,
+    7, 10,
+    7, -7
+  ]
+}

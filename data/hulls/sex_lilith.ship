@@ -1,0 +1,182 @@
+{
+  "hullName": "Lilith",
+  "hullId": "sex_lilith",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sex_lilith.png",
+  "style": "HIGH_TECH",
+  "height": 252,
+  "width": 222,
+  "center": [111, 115.5],
+  "collisionRadius": 160,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 141.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0003": "guardian"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        40, 38,
+        45.5, 38
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -45,
+      "locations": [-15.5, -79]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [-15.5, 79]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -35,
+      "locations": [40.5, -70]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 35,
+      "locations": [40.5, 70]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [-11.5, 38]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -45,
+      "locations": [-11.5, -38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-92.5, -68.5],
+      "length": 115,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-92.5, 68.5],
+      "length": 115,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99.5, -27],
+      "length": 86,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-99.5, 27],
+      "length": 86,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-95.5, -0],
+      "length": 125,
+      "width": 39,
+      "angle": 180,
+      "contrailSize": 39,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-104.5, -49],
+      "length": 50.5,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-104.5, 49],
+      "length": 50.5,
+      "width": 34,
+      "angle": -180,
+      "contrailSize": 34,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -97.5, 61,
+    -90.5, 83,
+    -74.5, 80,
+    -65.5, 85,
+    -41.5, 69,
+    -21.5, 96,
+    -7.5, 95,
+    0.5, 80,
+    20.5, 61,
+    34.5, 81,
+    53.5, 76,
+    53.5, 45.5,
+    120.5, -0,
+    53.5, -45.5,
+    53.5, -76,
+    34.5, -81,
+    20.5, -61,
+    0.5, -80,
+    -7.5, -95,
+    -21.5, -96,
+    -41.5, -69,
+    -65.5, -85,
+    -74.5, -80,
+    -90.5, -83,
+    -97.5, -61
+  ]
+}
