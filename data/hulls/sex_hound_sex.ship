@@ -1,0 +1,89 @@
+{
+  "hullName": "Hound (SEX)",
+  "hullId": "sex_hound_sex",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sexco/sex_hound_sex.png",
+  "style": "LOW_TECH",
+  "height": 86,
+  "width": 80,
+  "center": [40, 41],
+  "collisionRadius": 52.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 49.5,
+  "viewOffset": 0,
+    "builtInMods": [
+        "sex_sexco",
+        "civgrade",
+        "ablative_armor",
+        "distributed_fire_control"
+    ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -23]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [13, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [23, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, -22],
+      "length": 37,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, 22],
+      "length": 37,
+      "width": 19,
+      "angle": -180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -26, 6,
+    -28, 13.5,
+    -15.5, 14,
+    -13.5, 17.5,
+    -32, 18,
+    -31.5, 27,
+    14.5, 27.5,
+    15, 19,
+    -3.5, 15.5,
+    29.5, 15,
+    29.5, -15,
+    -3.5, -15.5,
+    15, -19,
+    14.5, -27.5,
+    -31.5, -27,
+    -32, -18,
+    -13.5, -17.5,
+    -15.5, -14,
+    -28, -13.5,
+    -26, -6
+  ]
+}

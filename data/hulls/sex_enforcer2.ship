@@ -1,0 +1,203 @@
+{
+  "hullName": "Enforcer Mk.II",
+  "hullId": "sex_enforcer2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/pather/sex_enforcer2.png",
+  "style": "LOW_TECH",
+  "height": 159,
+  "width": 170,
+  "center": [85, 79.5],
+  "collisionRadius": 96,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 88.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "safetyoverrides",
+    "ill_advised"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -25,
+      "locations": [-19, -44]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 25,
+      "locations": [-19, 44]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [15.5, -58]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [15.5, 58]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [26.5, -41]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [26.5, 41]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39.5, -26]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [39.5, 26]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [19.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69.5, -40],
+      "length": 54,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69.5, 40],
+      "length": 54,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70.5, -28.5],
+      "length": 33.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70.5, 28.5],
+      "length": 33.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69.5, -20.5],
+      "length": 33.5,
+      "width": 8,
+      "angle": 167,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69.5, 20.5],
+      "length": 33.5,
+      "width": 8,
+      "angle": -167,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43.5, -56],
+      "length": 22.27,
+      "width": 14.85,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43.5, 56],
+      "length": 22.27,
+      "width": 14.85,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -35.5, 4,
+    -49.5, 7,
+    -49.5, 12.5,
+    -68.5, 17,
+    -68.5, 45,
+    -48.5, 48,
+    -40, 57,
+    -30.5, 57.5,
+    -17.5, 72,
+    -0.5, 71,
+    3.5, 67,
+    20, 67,
+    23.5, 35,
+    30.5, 34,
+    36.5, 16.5,
+    55.5, 20.5,
+    61.5, 6,
+    61.5, -6,
+    55.5, -20.5,
+    36.5, -16.5,
+    30.5, -34,
+    23.5, -35,
+    20, -67,
+    3.5, -67,
+    -0.5, -71,
+    -17.5, -72,
+    -30.5, -57.5,
+    -40, -57,
+    -48.5, -48,
+    -68.5, -45,
+    -68.5, -17,
+    -49.5, -12.5,
+    -49.5, -7,
+    -35.5, -4
+  ]
+}

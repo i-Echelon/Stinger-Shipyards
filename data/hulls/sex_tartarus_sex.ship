@@ -1,0 +1,110 @@
+{
+  "hullName": "Tartarus (SEX)",
+  "hullId": "sex_tartarus_sex",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sexco/sex_tartarus_sex.png",
+  "style": "LOW_TECH",
+  "height": 110,
+  "width": 84,
+  "center": [42, 55],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sex_sexco",
+    "civgrade",
+    "sex_slowracks",
+    "rugged",
+    "ablative_armor",
+    "distributed_fire_control"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [40.5, -1]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [11, -1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 34.5,
+      "locations": [7, 28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -39.5,
+      "locations": [34, -24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, -31.5],
+      "length": 93,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, 29.5],
+      "length": 93,
+      "width": 16,
+      "angle": 179.5,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, -18],
+      "length": 39,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, 16],
+      "length": 39,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, -1],
+      "length": 139,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -49, 35,
+    -1.5, 35,
+    32, 28,
+    40.5, -1,
+    32, -32,
+    -49, -37
+  ]
+}

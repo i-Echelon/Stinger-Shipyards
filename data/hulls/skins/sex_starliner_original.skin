@@ -1,0 +1,23 @@
+{
+	"baseHullId":"starliner",
+	"skinHullId":"sex_starliner_original",
+	"hullName":"Starliner (S)",
+	"descriptionId":"sex_starliner_original",  # optional
+	"descriptionPrefix":"An unmodified original civilian model in pristine stock condition, this ship is a collector's item from a more civilized age.",
+	"spriteName":"graphics/ships/original/sex_starliner_original.png",
+	"addHints":[CIVILIAN],
+	"tech":"Pristine Relic",
+	"builtInMods":["sex_trophy"],
+	"removeEngineSlots":[0, 2, 3, 4, 5, 6, 7, 8], 		# indices, as engine slots have no id in the .ship file
+	"engineSlotChanges":{
+		"0":{
+			"width": 60,
+          	"length": 100,
+		},
+	},
+	"ordnancePoints":55,
+	"fleetPoints":1,
+	"baseValueMult":6,
+	"removeWeaponSlots":["WS 001", "WS 002", "WS 003", "WS 004"], 		# ids
+    },
+}

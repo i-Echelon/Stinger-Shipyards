@@ -1,0 +1,29 @@
+{
+  "hullName": "Armor",
+  "hullId": "sex_embattlement_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelict/sex_embattlement_right.png",
+  "style": "LOW_TECH",
+  "height": 86,
+  "width": 78,
+  "center": [39, 43],
+  "collisionRadius": 48,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ablative_armor"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    31, -26,
+    28, -29,
+    -31, -29,
+    0, 2,
+    5, 24,
+    13, 38,
+    13, 21,
+    30, 18
+  ]
+}

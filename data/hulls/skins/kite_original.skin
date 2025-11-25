@@ -1,0 +1,16 @@
+{
+	"baseHullId":"kite",
+	"skinHullId":"kite_original",
+	"hullName":"Kite (S)",
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"An unmodified original civilian model in pristine stock condition, this ship is a collector's item from a more civilized age.",
+	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_original.png",
+	"addHints":[CIVILIAN],
+	"tech":"Pristine Relic",
+	"ordnancePoints":30,
+	"builtInMods":["sex_trophy"],
+	"fleetPoints":2,
+	"baseValueMult":45,
+	"removeWeaponSlots":["WS 001", "WS 002", "WS 003"], 		# ids
+    },
+}

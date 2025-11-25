@@ -1,0 +1,40 @@
+{
+	"baseHullId":"gryphon",
+	"skinHullId":"sex_gryphon_LG",
+	"hullName":"Lioness",
+	"descriptionId":"sex_gryphon_LG",
+	"descriptionPrefix":"The Lioness is is a specialized modification of Altair Exotech's radical ''Cruiser School'' missile cruiser, the Gryphon-class. The original design was already a radical departure from traditional ship design with an emphasis on bursts of specialized heavy firepower. The Lioness takes this one step further with the integration of ordnance conveyors which allow the ship to quickly reload missile weapons.",
+	"tags":["LG_bp","no_dealer"],
+	"tech":"Lion's Guard",
+	"spriteName":"graphics/ships/lg/sex_gryphon_LG.png",
+	"baseValueMult":1,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["missleracks"],		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"systemId":"fastmissileracks",
+	"ordnancePoints":131,
+	"builtInMods":["sex_slowracks","andrada_mods","solar_shielding"],
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+		"WS 002":{
+            "type": "HYBRID",
+		},
+		"WS 003":{
+            "type": "ENERGY",
+		},
+		"WS 004":{
+            "type": "ENERGY",
+		},
+		"WS 005":{
+            "type": "ENERGY",
+		},
+		"WS 006":{
+            "type": "ENERGY",
+		},
+		"WS 007":{
+            "type": "ENERGY",
+		},
+	},
+}

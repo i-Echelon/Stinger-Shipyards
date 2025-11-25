@@ -1,0 +1,104 @@
+{
+  "hullName": "Shepherd (SEX)",
+  "hullId": "sex_shepherd_sex",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sexco/sex_shepherd_sex.png",
+  "style": "LOW_TECH",
+  "height": 98,
+  "width": 88,
+  "center": [44, 49],
+  "collisionRadius": 50.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sex_sexco",
+    "civgrade",
+    "ablative_armor",
+    "distributed_fire_control",
+    "surveying_equipment",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "sex_hammer_mining_drone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29.5, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -87.5,
+      "locations": [-4, -22]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        19.5, 20.5,
+        -0.5, 21.5,
+        -21.5, -0.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42, -19.5],
+      "length": 35.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42, 19.5],
+      "length": 35.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, -11],
+      "length": 23,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, 11],
+      "length": 23,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -29.5, 3,
+    -39, 6,
+    -40, 22.5,
+    -31, 30,
+    32, 30.5,
+    32, -30.5,
+    -31, -30,
+    -40, -22.5,
+    -39, -6,
+    -29.5, -3
+  ]
+}

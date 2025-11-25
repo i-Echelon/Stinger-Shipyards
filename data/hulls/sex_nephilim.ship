@@ -1,0 +1,200 @@
+{
+  "hullName": "Nephilim",
+  "hullId": "sex_nephilim",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sex_nephilim.png",
+  "style": "HIGH_TECH",
+  "height": 163,
+  "width": 168,
+  "center": [84, 81.5],
+  "collisionRadius": 104,
+  "shieldCenter": [-2.5, -0],
+  "shieldRadius": 96,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -161.5,
+      "locations": [-32, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 161.5,
+      "locations": [-32, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 97,
+      "locations": [-0.5, 62.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 10.5,
+      "locations": [34, 42]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        30, 12,
+        49.5, 12
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        29.5, 1,
+        49, 1
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        29, -9,
+        49.5, -9.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [52, -25]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        14.5, 13,
+        4, -5.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72.5, -40.5],
+      "length": 43.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-72.5, 40.5],
+      "length": 43.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-72.5, -32],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-72.5, 32],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79.5, -9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79.5, 9],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-79.5, -0],
+      "length": 63.5,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, -53],
+      "length": 21.88389,
+      "width": 7.508753,
+      "angle": -162.5,
+      "contrailSize": 7.508753,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, 53],
+      "length": 21.88389,
+      "width": 7.508753,
+      "angle": 162.5,
+      "contrailSize": 7.508753,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -78.5, 12,
+    -71.5, 25,
+    -71.5, 43,
+    -35.5, 71,
+    2.5, 78,
+    32.5, 74,
+    50.5, 65.5,
+    62.5, 49,
+    62.5, -49,
+    32.5, -74,
+    2.5, -78,
+    -35.5, -71,
+    -71.5, -43,
+    -71.5, -25,
+    -78.5, -12
+  ]
+}

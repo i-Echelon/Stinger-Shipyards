@@ -1,0 +1,10 @@
+{
+	"baseHullId":"sex_furtive",
+	"skinHullId":"sex_furtive_pirate",
+	"hullName":"Furtive (P)",
+	"descriptionId":"sex_furtive",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"spriteName":"graphics/ships/furtive/sex_furtive_pirate.png",
+}

@@ -1,0 +1,129 @@
+{
+  "hullName": "Puppy",
+  "hullId": "sex_prot_seven",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/rosalina/sex_prot_seven.png",
+  "style": "LOW_TECH",
+  "height": 106,
+  "width": 84,
+  "center": [42, 55],
+  "collisionRadius": 61.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sex_RosalinaShip",
+    "sex_PhaseJitters"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4, -21]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [4, 21]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [33, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-1, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52, -9.5],
+      "length": 25,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, 9.5],
+      "length": 25,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-52, 0],
+      "length": 35.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-32, -27],
+      "length": 25,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, 25.5],
+      "length": 25,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -50, 11.5,
+    -42, 19,
+    -29, 19,
+    -31, 24,
+    -31, 29.5,
+    -25, 29,
+    -26, 37,
+    -18, 37,
+    -0.5, 16,
+    19, 12,
+    22.5, 16,
+    30, 16,
+    32.5, 12.5,
+    32.5, -12.5,
+    30, -16,
+    22.5, -16,
+    19, -12.5,
+    16.5, -15,
+    12.5, -15,
+    10, -13.5,
+    -0.5, -16,
+    -18, -37,
+    -26, -37,
+    -26, -33,
+    -31, -29.5,
+    -31, -24,
+    -29, -19,
+    -42, -19,
+    -50, -11.5
+  ]
+}
