@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "sex_broodmother_right",
+    "hullMods": [
+        "pointdefenseai",
+        "magazines"
+    ],
+    "quality": 1.0,
+    "variantId": "sex_broodmother_right_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "sex_LumenBay"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "guardian"
+            }
+        }
+    ]
+}

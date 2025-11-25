@@ -1,0 +1,49 @@
+{
+  "variantId": "sex_colossus_sex_Mining",
+  "hullId": "sex_colossus_sex",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "hammerrack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "hammer",
+        "WS0013": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "mininglaser",
+        "WS0016": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "mininglaser",
+        "WS0017": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

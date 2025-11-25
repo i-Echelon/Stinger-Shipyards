@@ -1,0 +1,56 @@
+{
+  "variantId": "sex_prot_two_Standard",
+  "hullId": "sex_prot_two",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "auxiliarythrusters",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavyblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "amblaster",
+        "WS0005": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "hammer",
+        "WS0003": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

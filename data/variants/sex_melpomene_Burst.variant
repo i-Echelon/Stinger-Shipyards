@@ -1,0 +1,53 @@
+{
+  "variantId": "sex_melpomene_Burst",
+  "hullId": "sex_melpomene",
+  "displayName": "Burst",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "high_scatter_amp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "phasebeam",
+        "WS0002": "phasebeam",
+        "WS0005": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "harpoonpod",
+        "WS0011": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "taclaser",
+        "WS0007": "taclaser",
+        "WS0008": "taclaser",
+        "WS0009": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0012": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

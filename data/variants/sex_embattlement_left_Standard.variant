@@ -1,0 +1,14 @@
+{
+  "variantId": "sex_embattlement_left_Standard",
+  "hullId": "sex_embattlement_left",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,17 @@
+{
+  "variantId": "sex_grandine_Elite",
+  "hullId": "sex_grandine",
+  "displayName": "Elite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "efficiency_overhaul",
+    "insulatedengine"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}
