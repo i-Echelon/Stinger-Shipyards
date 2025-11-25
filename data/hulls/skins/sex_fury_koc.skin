@@ -1,9 +1,0 @@
-{
-	"baseHullId":"fury",
-	"skinHullId":"sex_fury_koc",
-	"hullName":"Fury (KOC)",
-	"descriptionPrefix":"This ship has been painted with the dazzling livery of the Free Star Combine, the military subsidiary of the independent Ko Combine company charter. Systems modifications are otherwise superficial.",
-	"tags":["no_dealer, no_sell"],
-	"tech":"Ko Combine",
-	"spriteName":"graphics/ships/koc/sex_fury_koc.png",
-}

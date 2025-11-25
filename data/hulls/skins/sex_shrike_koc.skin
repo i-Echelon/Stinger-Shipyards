@@ -1,9 +1,0 @@
-{
-	"baseHullId":"shrike",
-	"skinHullId":"sex_shrike_koc",
-	"hullName":"Shrike (KOC)",
-	"descriptionPrefix":"This ship has been painted with the dazzling livery of the Free Star Combine, the military subsidiary of the independent Ko Combine company charter. Systems modifications are otherwise superficial.",
-	"tags":["no_dealer, no_sell"],
-	"tech":"Ko Combine",
-	"spriteName":"graphics/ships/koc/sex_shrike_koc.png",
-}

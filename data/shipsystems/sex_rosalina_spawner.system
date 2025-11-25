@@ -1,9 +1,0 @@
-{
-	"id":"sex_rosalina_spawner",
-	"type":"WEAPON",
-	"aiType":"CUSTOM", 
-	"aiScript":"data.scripts.ai.sex_DroneDeployerAI",
-	
-	"weaponDataId":"sex_ship_pod",
-	"outOfUsesSound":"gun_out_of_ammo",
-}
