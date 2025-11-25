@@ -1,0 +1,32 @@
+{
+  "variantId": "sex_hound_sex_Mining",
+  "hullId": "sex_hound_sex",
+  "displayName": "Mining",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "miningblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer",
+        "WS0002": "hammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,34 @@
+{
+  "variantId": "sex_brawler_merc_Strike",
+  "hullId": "sex_brawler_merc",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "chaingun",
+        "WS0004": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "jackhammer",
+        "WS0002": "jackhammer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
